@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#170d25">
+  <title>A Little Question for Christie Jay</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <canvas id="sparkles" aria-hidden="true"></canvas>
+
+  <main class="page">
+    <nav class="topbar">
+      <a class="brand" href="#" aria-label="Our story"><span>♥</span> a little love story</a>
+      <span class="top-note">made with love, just for you</span>
+    </nav>
+
+    <section class="hero">
+      <div class="eyebrow"><span class="pulse"></span> FOR SOMEONE VERY SPECIAL</div>
+      <div class="heart-orbit" aria-hidden="true">
+        <span class="orbit orbit-a"></span><span class="orbit orbit-b"></span>
+        <span class="orbit-heart">♥</span>
+        <span class="tiny-heart heart-one">♥</span>
+        <span class="tiny-heart heart-two">♥</span>
+        <span class="tiny-heart heart-three">♥</span>
+      </div>
+
+      <p class="intro">There is something I've been wanting to tell you...</p>
+      <h1>I love you,<br><em>Christie Jay Carreon.</em></h1>
+      <p class="subtitle">You make ordinary moments feel magical, and my heart feels at home whenever I'm with you.</p>
+
+      <div class="divider"><span></span> <b>♡</b> <span></span></div>
+
+      <p class="question-kicker">SO, I HAVE ONE IMPORTANT QUESTION</p>
+      <h2>Will you <span>marry me?</span></h2>
+      <p class="forever">Today, tomorrow, and all the days still waiting for us.</p>
+
+      <div class="actions">
+        <button class="yes-button" id="yesBtn">YES, A THOUSAND TIMES! <span>♥</span></button>
+        <button class="think-button" id="thinkBtn">I need a moment ♡</button>
+      </div>
+      <p class="small-note">No matter what, you are loved more than words can say.</p>
+    </section>
+
+    <footer>WITH ALL MY HEART <span>♥</span> ALWAYS & FOREVER</footer>
+  </main>
+
+  <div class="modal" id="yesModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button class="close" id="closeModal" aria-label="Close">×</button>
+      <div class="modal-heart">♥</div>
+      <p class="modal-overline">THIS IS THE BEGINNING</p>
+      <h2 id="modalTitle">You've made me<br><em>the happiest!</em></h2>
+      <p>Here's to our forever, Christie Jay. I can't wait to make a lifetime of beautiful memories with you. 💗</p>
+      <button class="yes-button modal-ok" id="celebrateBtn">LET'S MAKE FOREVER ✨</button>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status">Take all the time you need. My heart is here. ♡</div>
+  <script src="script.js"></script>
+</body>
+</html>
